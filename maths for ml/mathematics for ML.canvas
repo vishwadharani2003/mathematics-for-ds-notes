@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"c85bd90dd0e45edf","type":"text","text":"# Maths for DS","x":-220,"y":-400,"width":260,"height":50},
+		{"id":"7ff8c9104b8e3fa9","type":"text","text":"# singular\n# non singular","x":-77,"y":-240,"width":277,"height":134},
+		{"id":"a757396b41bd6f7b","type":"text","text":"# Determinant","x":-520,"y":-203,"width":250,"height":60},
+		{"id":"0794d7b735db0b47","type":"text","text":"# Matrics for powerful representation","x":-275,"y":80,"width":370,"height":140,"color":"1"},
+		{"id":"8ceba76a7fbfcf7a","type":"text","text":"# Linear equation ","x":-778,"y":316,"width":318,"height":60},
+		{"id":"860c4d6140f4418b","type":"text","text":"# Linear transforms \n=>gives the change of co ordinates\n![[Pasted image 20240111210551.png]]\n=>matrix multiplication\n![[Pasted image 20240111215741.png]]\n![[Pasted image 20240111215759.png]]\ncombining two two linear transformation into a third transformation\n\n\n\n\n","x":288,"y":333,"width":672,"height":1507,"color":"3"},
+		{"id":"8e8c2f41b8b14352","type":"link","url":"https://d3c33hcgiwev3.cloudfront.net/hZPic6iIQ4STLCToYlV8aQ_2c37fce670c24944bc815eccc34a61f1_C1_W3.pdf?Expires=1705017600&Signature=AEow2WF-SWYIActyG7PHoZk5aLsnjE5fvquH9odJ~0cKiJ2dq3VlSRHFmvS5-ieWXjX7IP8SxgdMgf7AlFwXHo1O2ynqWdPiHRS9l9ZwPXOVVBSbn~eZ2IbcAs4r3X7U1oxGV2J9NBGhlzGg60FfcsExOvLpYzP0syNKgkSLM~o_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A","x":-824,"y":420,"width":864,"height":720},
+		{"id":"28da5c3816b4679d","type":"text","text":"# Inverse\n\n=>![[Pasted image 20240111234652.png]]\n","x":-318,"y":1992,"width":758,"height":488},
+		{"id":"e8cd93f394ca9d2d","x":1120,"y":313,"width":473,"height":167,"type":"text","text":"# machine learning application\n- "},
+		{"id":"9ef69828b9a31143","x":2089,"y":260,"width":391,"height":1740,"type":"text","text":"# Dimensionality reduction\n\n- PCA->in this we reduce the dimensionality of the image\n- ![[Pasted image 20240112204613.png]]\n-  determinant of the matrices is always equal to determinant of the multiplied matrix\n- ![[Pasted image 20240112204758.png]]\n![[Pasted image 20240112205252.png]]\n![[Pasted image 20240112205633.png]]\n![[Pasted image 20240112205643.png]]\n![[Pasted image 20240112210043.png]]\nbases are something reach a point\n![[Pasted image 20240112210207.png]]\n\n![[Pasted image 20240112210134.png]]\nit doesnt reach the point\n\n![[Pasted image 20240112210859.png]]\n# stretching the paralleogram to prallelogram\n![[Pasted image 20240112211629.png]]\n\n\n"}
+	],
+	"edges":[
+		{"id":"1b6dc50037eae838","fromNode":"c85bd90dd0e45edf","fromSide":"bottom","toNode":"a757396b41bd6f7b","toSide":"top"},
+		{"id":"60ab4fffbc7070ce","fromNode":"c85bd90dd0e45edf","fromSide":"bottom","toNode":"7ff8c9104b8e3fa9","toSide":"top"},
+		{"id":"05f15bdb9176e554","fromNode":"0794d7b735db0b47","fromSide":"bottom","toNode":"8ceba76a7fbfcf7a","toSide":"top"},
+		{"id":"e54450e07ae46399","fromNode":"0794d7b735db0b47","fromSide":"bottom","toNode":"860c4d6140f4418b","toSide":"top"},
+		{"id":"448d3f1e0894c2cf","fromNode":"860c4d6140f4418b","fromSide":"bottom","toNode":"28da5c3816b4679d","toSide":"top"},
+		{"id":"3df607fd1567f527","fromNode":"0794d7b735db0b47","fromSide":"bottom","toNode":"e8cd93f394ca9d2d","toSide":"top"},
+		{"id":"36af472078fe76b6","fromNode":"0794d7b735db0b47","fromSide":"bottom","toNode":"9ef69828b9a31143","toSide":"top"}
+	]
+}
